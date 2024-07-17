@@ -1,0 +1,10 @@
+<Label text="some text" position=[0, 0] color=(255, 0, 255) active_color=(255, 0, 0) align=center>
+<Button position=[0, 1] 
+        color=(255,255,0)
+        active_color=(0, 0, 255) 
+        func=${this.app.change_label}
+        args="some text"
+        trigger_once=True
+        align=center>
+<Input position=[0, 2]
+       align=center>
